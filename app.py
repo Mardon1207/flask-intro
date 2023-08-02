@@ -11,10 +11,11 @@ def hello():
 def query():
     html = """
     <form action="http://127.0.0.1:5000/api/sum">
-    <label>a:</label><br>
-    <input type="text"  name="a" value="0"><br>
-    <label>b:</label><br>
-    <input type="text" name="b" value="0"><br><br>
+    <label>a:</label>
+    <input type="text"  name="a" value="">
+    <p>+</p>
+    <label>b:</label>
+    <input type="text" name="b" value=""><br><br>
     <input type="submit" value="Submit">
     </form>
     """
