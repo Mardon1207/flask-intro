@@ -10,7 +10,7 @@ def hello():
 @app.route('/')
 def query():
     html = """
-    <form action="http://127.0.0.1:5000/api/sum">
+    <form action="https://mardon.pythonanywhere.com/api/sum">
     <label>a:</label>
     <input type="text"  name="a" value="">
     <p>+</p>
